@@ -13,7 +13,7 @@
       "error",
       "single"
     ], 
-    "space-before-function-paren": [      // 函数参数左右间距应一致
+    "space-before-function-paren": [      // 函数参数左间距应保持一致
       "error",
       "always"
     ], 
