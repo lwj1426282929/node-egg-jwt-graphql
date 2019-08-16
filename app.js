@@ -1,5 +1,3 @@
-// function asd () {}
-
 module.exports = app => {
   // 自定义内容
   app.projectName = 'eggManual'
@@ -14,9 +12,6 @@ module.exports = app => {
 
   app.ready(async () => {
 
-
-
-    
   })
 
   app.beforeClose(async () => {
