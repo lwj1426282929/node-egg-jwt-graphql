@@ -1,22 +1,27 @@
 {
   "extends": "eslint-config-egg",
   "rules": {
-    /* 忽略全局模式 */
-    "strict": "off",
-    /* 忽略全等判断 */
-    "eqeqeq": "error",
-    /* 句末一律不用分号 */
-    "semi": [
+    "strict": "off",                      // 忽略全局模式
+    "eqeqeq": "error",                    // 忽略全等判断
+    "semi": [                             // 句末一律不用分号
       "error",
       "never"
     ],
-    /* 禁止使用console */
-    // "no-console": "error",
-    /* 禁止使用debugger */
-    "no-debugger": "error",
-    /*强制使用单引号*/ 
-    "quotes": ["error", "single"],
-    /* 函数参数间距 */
-    "space-before-function-paren": ["error", "always"]
+    "no-console": "error",                // 禁止使用console
+    "no-debugger": "error",               // 禁止使用debugger
+    "quotes": [                           // 强制使用单引号
+      "error",
+      "single"
+    ], 
+    "space-before-function-paren": [      // 函数参数左右间距应一致
+      "error",
+      "always"
+    ], 
+    "no-multiple-empty-lines": [          // 空行最多不能超过2行
+      "error",
+      {
+        "max": 2
+      }
+    ] 
   }
 }
