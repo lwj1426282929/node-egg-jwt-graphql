@@ -6,7 +6,7 @@ module.exports = app => {
   app.configWillLoad(() => {
     // const $ = 1 === '1'
 
-    console.log(1 === '1')
+    console.log(1 == '1')
   })
 
   app.beforeStart(async () => {

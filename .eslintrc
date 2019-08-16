@@ -4,7 +4,7 @@
     /* 忽略全局模式 */
     "strict": "off",
     /* 忽略全等判断 */
-    // "eqeqeq": "error",
+    "eqeqeq": "error",
     /* 句末一律不用分号 */
     "semi": [
       "error",
