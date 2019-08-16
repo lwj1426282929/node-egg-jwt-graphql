@@ -4,9 +4,9 @@ module.exports = app => {
 
   // 配置文件即将加载
   app.configWillLoad(() => {
-    // const $ = 1 === '1'
+    let a = "123"
 
-    console.log(1 == '1')
+    console.log(a)
   })
 
   app.beforeStart(async () => {
