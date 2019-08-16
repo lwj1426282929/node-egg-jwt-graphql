@@ -4,7 +4,7 @@ module.exports = app => {
 
   // 配置文件即将加载
   app.configWillLoad(() => {
-    let a = "123"
+    let a = "123";
 
     console.log(a)
   })
