@@ -13,8 +13,6 @@ module.exports = app => {
   app.ready(async () => {
 
 
-    
-
   })
 
   app.beforeClose(async () => {
