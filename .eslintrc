@@ -4,7 +4,7 @@
     // 关闭严格模式
     "strict": "off",  
     // 句末一律不用分号
-    "semi": ["error", "never"],
+    "semi": ["warn", "never"],
     'no-console': "warn",  // 禁止使用console
     'no-debugger': "warn", // 禁止使用debugger
   }

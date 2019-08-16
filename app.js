@@ -4,7 +4,7 @@ module.exports = app => {
 
   // 配置文件即将加载
   app.configWillLoad(() => {
-
+    console.log(111);
   })
 
   app.beforeStart(async () => {
