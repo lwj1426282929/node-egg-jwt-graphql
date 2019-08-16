@@ -5,7 +5,7 @@
     "strict": "off",  
     // 句末一律不用分号
     "semi": ["warn", "never"],
-    'no-console': "warn",  // 禁止使用console
-    'no-debugger': "warn", // 禁止使用debugger
+    "no-console": "warn",  // 禁止使用console
+    "no-debugger": "warn", // 禁止使用debugger
   }
 }
