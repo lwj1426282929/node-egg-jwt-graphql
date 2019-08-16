@@ -14,5 +14,7 @@
     // "no-console": "error",
     /* 禁止使用debugger */
     "no-debugger": "error",
+    /*强制使用单引号*/ 
+    "quotes": ["error", "single"]
   }
 }
