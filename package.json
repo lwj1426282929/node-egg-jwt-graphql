@@ -42,8 +42,5 @@
     "url": ""
   },
   "author": "",
-  "license": "MIT",
-  "pre-commit": [
-    "lint"
-  ]
+  "license": "MIT"
 }
