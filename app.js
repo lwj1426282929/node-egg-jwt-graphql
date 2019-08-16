@@ -1,4 +1,4 @@
-function asd () {}
+// function asd () {}
 
 module.exports = app => {
   // 自定义内容
@@ -6,8 +6,8 @@ module.exports = app => {
 
   // 配置文件即将加载
   app.configWillLoad(() => {
-    const a = '123'
-    console.log(a)
+    // const a = '123'
+    // console.log(a)
   })
 
   app.beforeStart(async () => {
