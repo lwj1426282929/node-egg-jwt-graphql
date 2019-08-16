@@ -5,7 +5,7 @@ module.exports = app => {
   // 配置文件即将加载
   app.configWillLoad(() => {
     // const $ = 1 === '1'
-    
+
     console.log(1 === '1')
   })
 
