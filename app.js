@@ -1,3 +1,5 @@
+function asd () {}
+
 module.exports = app => {
   // 自定义内容
   app.projectName = 'eggManual'
@@ -5,8 +7,6 @@ module.exports = app => {
   // 配置文件即将加载
   app.configWillLoad(() => {
     const a = '123'
-
-
     console.log(a)
   })
 

@@ -15,6 +15,8 @@
     /* 禁止使用debugger */
     "no-debugger": "error",
     /*强制使用单引号*/ 
-    "quotes": ["error", "single"]
+    "quotes": ["error", "single"],
+    /* 函数参数间距 */
+    "space-before-function-paren": ["error", "always"]
   }
 }
