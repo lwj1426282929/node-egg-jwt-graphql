@@ -1,11 +1,18 @@
 {
   "extends": "eslint-config-egg",
   "rules": {
-    // 关闭严格模式
-    "strict": "off",  
-    // 句末一律不用分号
-    "semi": ["warn", "never"],
-    "no-console": "warn",  // 禁止使用console
-    "no-debugger": "warn", // 禁止使用debugger
+    /* 忽略全局模式 */
+    "strict": "off",
+    /* 忽略全等判断 */
+    // "eqeqeq": "error",
+    /* 句末一律不用分号 */
+    "semi": [
+      "error",
+      "never"
+    ],
+    /* 禁止使用console */
+    // "no-console": "error",
+    /* 禁止使用debugger */
+    "no-debugger": "error",
   }
 }
