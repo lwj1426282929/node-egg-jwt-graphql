@@ -7,6 +7,11 @@ class HomeController extends Controller {
     const { ctx } = this
     ctx.body = 'hi, egg'
   }
+
+  async node () {
+    const { ctx } = this
+    ctx.body = 'hi, egg123'
+  }
 }
 
 module.exports = HomeController
