@@ -10,7 +10,7 @@ class HomeController extends Controller {
 
   async node () {
     const { ctx } = this
-    ctx.body = 'hi, egg123'
+    ctx.body = this.app.config.appPrefix
   }
 }
 

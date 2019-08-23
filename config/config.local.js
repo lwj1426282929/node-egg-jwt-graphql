@@ -1,13 +1,13 @@
 'use strict'
 
-module.exports = appInfo => {
+module.exports = () => {
   const config = {}
 
   /**
    * @member Config#
    * @property {String} KEY - description
    */
-  config.appPrefix = appInfo.name
+  config.appPrefix = '123'
 
   return config
 }
